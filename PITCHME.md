@@ -2,10 +2,10 @@
 
 <div style='display: table;'>
   <div style='float:left;width:300px;'>
-    <img  src="assets/image/gitlab.png"/>
+    <img  src="https://github.com/bertrandmartel/ci-cd-presentation/raw/master/assets/image/gitlab.png"/>
   </div>  
   <div style='display: table-cell;vertical-align: middle;'>
-    <img src="assets/image/rancher.png"/>
+    <img src="https://github.com/bertrandmartel/ci-cd-presentation/raw/master/assets/image/rancher.png"/>
   </div>
 </div>
 
