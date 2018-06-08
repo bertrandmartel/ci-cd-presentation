@@ -1,47 +1,66 @@
-# CI/CD using Rancher & Gitlab
+## CI/CD using <br/> Rancher & Gitlab
+
+<div style='display: table;'>
+  <div style='float:left;width:300px;'>
+    <img  src="assets/image/gitlab.png"/>
+  </div>  
+  <div style='display: table-cell;vertical-align: middle;'>
+    <img src="assets/image/rancher.png"/>
+  </div>
+</div>
 
 ---
 
-## Gitlab
+<img src="assets/image/docker.png" style='border:0;'/>
+
+> Docker is an open platform for developing, shipping, and running applications
+
+Note:
+Docker allows you to package an application with all of its dependencies into a standardized unit for software development.
+
+---
+
+## VM vs Docker
+
+<img src="assets/image/VM-Diagram.png" />
+
+Note:
+Sandbox environment (develop, test, debug, educate), 
+Continuous Integration & Deployment, 
+Scaling apps, 
+Development collaboration, 
+Infrastructure configuration, 
+Local development, 
+Multi-tier applications, 
+PaaS, SaaS, 
+
+---
+
+## GitLab
+
+<img  src="assets/image/gitlab2.png"/>
 
 - VCS
 - Continuous Integration (Gitlab CI)
-- docker registry
+- Docker registry
+- User / Group management
 
 ---
 
 ## Rancher
 
-- docker container management
-- distinct environments
-- one server -> run clients on VM hosts
+<img src="assets/image/rancher.png"/>
+
+- Docker container management
+- Distinct environments (Labo, Prod ...)
+- Supported hosts : custom, Amazon, Azure ...
+- User management per environment
 
 ---
 
-## What is Docker ?
+#### CI/CD flow (simplified)
 
----
-
-## Lab environment
-
-Gitlab :
-
-user interface
-docker registry
-
-Letsenscrypt : get SSL certificate for free
-
-load balancer
-
----
-
-## Flex environment
-
-- VM1 : load balancer / static website
-- VM3 : API EPG 
-- VM4 : IFTTT
-- VM5 : analytics
-- VM7 : assistants vocaux
+<img src="assets/image/archi_rancher.png" style='border: 0;'/>
 
 ---
 
